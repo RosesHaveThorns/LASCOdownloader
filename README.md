@@ -6,19 +6,19 @@ NASA Goddard Space Flight Center for providing this data to the public.
 
 Created by Rose Awen Brindle, 2022.
 
-For more informatio: contactme@rosebrindle.dev
+For more information: contactme@rosebrindle.dev
 
 ## Usage
-Call LASCO_imgdownload.py from the command line using the following command line arguments. Downloaded data is placed in the 'download' folder at LASCO_imgdownload.py's location.
+Call LASCO_imgdownload.py from the command line using the following command line arguments. Downloaded data is placed in the 'download' folder at LASCO_imgdownload.py's location. NOTE you may need to create this folder yourself before use.
 
 Positional arguments:
-  int                   year in yyyy format
-  int                   month in mm format
-  int                   day in dd format to be downloaded
+- int                   year in yyyy format
+- int                   month in mm format
+- int                   day in dd format to be downloaded
 
 Optional arguments:
-  -h, --help            show this help message and exit
-  -t str [str ...], --imgtype str [str ...]
+- -h, --help            show this help message and exit
+- -t str [str ...], --imgtype str [str ...]
                         type of image to retrieve, defaults to 2aia193, first digit denotes which LASCO coronagraph
 
 ### image types

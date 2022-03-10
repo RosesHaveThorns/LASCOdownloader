@@ -3,7 +3,7 @@
 -----------------------------
 download images from the LASCO coronagraphs for CME analysis
 
-Made with love by ROSE
+Made with love by ROSE during March 2022
 """
 
 from fileinput import filename
