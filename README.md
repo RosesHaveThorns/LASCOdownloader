@@ -4,9 +4,9 @@ Download all LASCO coronagraph images for a given day
 Images are collected from the LASCO CME Catalog dataset. Thanks to the Heliophysics Science Division at
 NASA Goddard Space Flight Center for providing this data to the public.
 
-Created by Rose Awen Brindle, 2022.
+Created by Rose Awen Brindle, 2022. Released under GNU GENERAL PUBLIC LICENSE Version 3.
 
-For more information: contactme@rosebrindle.dev
+For more information: contactme@rose-brindle.dev
 
 ## Usage
 Call LASCO_imgdownload.py from the command line using the following command line arguments. Downloaded data is placed in the 'download' folder at LASCO_imgdownload.py's location. NOTE you may need to create this folder yourself before use.
